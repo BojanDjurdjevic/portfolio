@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Bojan Đurđević | Full Stack Developer</title>
+
+    <meta
+        name="description"
+        content="Full Stack Developer specializing in JavaScript, TypeScript, Laravel, PHP and Vue.js.">
+
+    <meta
+        name="theme-color"
+        content="#020617">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script type="module" src="/src/main.js"></script>
+</head>
+
+<body
+    x-data="portfolio()"
+    class="font-inter bg-slate-950 text-slate-100">
+
+    <!-- ========================= -->
+    <!-- NAVBAR -->
+    <!-- ========================= -->
+
+    <header class="navbar">
+
+        <div class="container">
+
+            <a
+                href="/"
+                class="logo">
+
+                Bojan<span> Đurđević</span>
+
+            </a>
+
+            <nav class="desktop-nav">
+
+                <a href="#stack">Stack</a>
+
+                <a href="#featured">Project</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#experience">Experience</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <button
+                class="mobile-button"
+                @click="toggleMenu()">
+
+                ☰
+
+            </button>
+
+        </div>
+
+        <div
+            x-show="mobile"
+            x-transition.opacity.duration.200ms
+            @click.outside="closeMenu()"
+            class="mobile-menu">
+
+            <a href="#stack">Stack</a>
+
+            <a href="#featured">Project</a>
+
+            <a href="#projects">Projects</a>
+
+            <a href="#experience">Experience</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </header>
+
+    <!-- ========================= -->
+    <!-- MAIN -->
+    <!-- ========================= -->
+
+    <main>
+
+        <!-- HERO -->
+
+        <section id="hero" class="hero"></section>
+
+        <!-- TECH STACK -->
+
+        <section id="stack"></section>
+
+        <!-- FEATURED PROJECT -->
+
+        <section id="featured">
+
+        </section>
+
+        <!-- OTHER PROJECTS -->
+
+        <section id="projects">
+
+        </section>
+
+        <!-- EXPERIENCE -->
+
+        <section id="experience">
+
+        </section>
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
