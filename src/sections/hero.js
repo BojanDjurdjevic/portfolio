@@ -51,7 +51,7 @@ hero.innerHTML = `
 
 
             <a
-                href="/cv/Bojan_Djurdjevic_CV.pdf"
+                href="/portfolio/cv/Bojan_Djurdjevic_CV.pdf"
                 class="btn btn-secondary"
                 target="_blank">
 
