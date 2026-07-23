@@ -54,7 +54,7 @@ p{
 
 section{
 
-    margin-top:24px;
+    margin-top:1,6rem;
 
 }
 
@@ -75,7 +75,7 @@ section{
 
 .header h1{
 
-    font-size:28pt;
+    font-size:24pt;
 
     font-weight:800;
 
@@ -218,27 +218,51 @@ li{
 
 .project{
 
-    margin-bottom:18px;
+    margin-bottom: 1.5rem;
 
 }
 
 
 .project h4{
 
-    font-size:12pt;
+    font-size:13pt;
 
     font-weight:700;
+
+    color:#111827;
 
 }
 
 
-.project > p{
+.project-role{
 
-    margin-top:2px;
+    margin-top:3px;
+
+    font-size:10.5pt;
 
     font-style:italic;
 
     color:#4b5563;
+
+}
+
+
+.project-tech{
+
+    margin-top:6px;
+
+    color:#2563eb;
+
+    font-size:9.8pt;
+
+    font-weight:600;
+
+}
+
+
+.project ul{
+
+    margin-top:8px;
 
 }
 
@@ -251,7 +275,7 @@ li{
 
 .experience{
 
-    margin-bottom:14px;
+    margin-bottom: 1.2rem;
 
 }
 
@@ -281,6 +305,26 @@ li{
     color:#4b5563;
 
     white-space:nowrap;
+
+}
+
+.experience ul{
+
+    margin-top:8px;
+
+}
+
+
+.experience li{
+
+    color:#374151;
+
+}
+
+
+.experience h4{
+
+    margin-bottom:3px;
 
 }
 
