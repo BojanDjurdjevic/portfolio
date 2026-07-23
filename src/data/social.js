@@ -20,7 +20,7 @@ export default [
         name: "Email",
 
         url:
-            "mailto:your-email@example.com"
+            "mailto:pininfarina164@gmail.com"
     }
 
 ];
