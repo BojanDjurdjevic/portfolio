@@ -1,5 +1,7 @@
 const hero = document.querySelector('#hero');
 
+const base = import.meta.env.BASE_URL;
+
 
 hero.innerHTML = `
 
@@ -51,7 +53,7 @@ hero.innerHTML = `
 
 
             <a
-                href="/portfolio/cv/Bojan_Djurdjevic_CV.pdf"
+                href="${base}cv/Bojan_Djurdjevic_CV.pdf"
                 class="btn btn-secondary"
                 target="_blank">
 
