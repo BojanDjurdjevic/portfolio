@@ -1,3 +1,5 @@
+const base = import.meta.env.BASE_URL;
+
 export default [
 
     {
@@ -58,7 +60,7 @@ export default [
             "https://kombitransfer.com",
 
         image:
-            "/images/projects/kombitransfer.png"
+            `${base}/images/projects/kombitransfer.png`
     },
 
     {
@@ -83,7 +85,7 @@ export default [
         demo: null,
 
         image:
-            "/images/projects/automarket.png"
+            `${base}/images/projects/automarket.png`
     }
 
 ];
