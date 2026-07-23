@@ -53,7 +53,7 @@ hero.innerHTML = `
 
 
             <a
-                href="${base}cv/Bojan_Djurdjevic_CV.pdf"
+                href="${base}/cv/Bojan_Djurdjevic_CV.pdf"
                 class="btn btn-secondary"
                 target="_blank">
 
