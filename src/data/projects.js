@@ -30,7 +30,7 @@ export default [
         github:
             "https://github.com/BojanDjurdjevic/BokYourHotel",
 
-        demo: null,
+        demo: "https://bookyourhotelapp.com/",
 
         image:
             "/images/hotel.webp"
