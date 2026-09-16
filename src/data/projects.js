@@ -28,7 +28,7 @@ export default [
             "Multi-hotel management platform featuring room inventory, supplier dashboard, seasonal pricing and role management.",
 
         github:
-            "https://github.com/BojanDjurdjevic/BokYourHotel",
+            "https://github.com/BojanDjurdjevic/BookYourHotel",
 
         demo: "https://bookyourhotelapp.com/",
 

@@ -6,7 +6,7 @@
 
     size:A4;
 
-    margin:18mm;
+    margin:0;
 
 }
 
@@ -267,6 +267,17 @@ li{
 }
 
 
+.project-links {
+    margin-top: 6px;
+    font-size: 9.5pt;
+    font-weight: 600;
+}
+
+.project-links a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
 
 /* =========================
    EXPERIENCE
@@ -356,6 +367,8 @@ a{
     body{
 
         font-size:10pt;
+        padding: 18mm;
+        margin: 0;
 
     }
 
